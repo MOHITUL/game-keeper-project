@@ -27,6 +27,7 @@ const Navbar = () => {
             <li><NavLink to='/'>Home</NavLink></li>
             <li><NavLink to='/games'>Games</NavLink></li>
             <li><NavLink to='/installation'>Installation</NavLink></li>
+            <li><NavLink to='/about'>About</NavLink></li>
             {user ? (
               <>
                 <li>
@@ -55,10 +56,11 @@ const Navbar = () => {
           <li><NavLink to='/'>Home</NavLink></li>
           <li><NavLink to='/games'>Games</NavLink></li>
           <li><NavLink to='/installation'>Installation</NavLink></li>
+          <li><NavLink to='/about'>About</NavLink></li>
           {!user && (
             <>
-            <li><NavLink to={"/login"}>LogIn</NavLink></li>
-            <li><NavLink to={"/signup"}>SignUp</NavLink></li>
+              <li><NavLink to={"/login"}>LogIn</NavLink></li>
+              <li><NavLink to={"/signup"}>SignUp</NavLink></li>
             </>
           )}
 
@@ -67,10 +69,10 @@ const Navbar = () => {
           user && (
             <div className='flex items-center gap-3'>
               <Link to={"/profile"}>
-              <img src={user.photoURL} alt=""  className='h-10 w-10 rounded-full border-2 border-[#632EE3] cursor-pointer' title='{user.displayName}'/>
+                <img src={user.photoURL} alt="" className='h-10 w-10 rounded-full border-2 border-[#632EE3] cursor-pointer' title='{user.displayName}' />
               </Link>
               <button onClick={handleLogout} className='btn btn-sm bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-sm font-semibold  text-white hover:bg-[#5225b8]'><MdLogout className='text-xl' />
-LogOut</button>
+                LogOut</button>
             </div>
           )
         }
