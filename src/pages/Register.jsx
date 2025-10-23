@@ -6,7 +6,7 @@ import { FcGoogle } from "react-icons/fc";
 
 const Register = () => {
   useEffect (() => {
-          document.title = "Register | GAMEKEEPER";
+          document.title = "SignUp | GAMEKEEPER";
       },[]);
   const auth = getAuth(app);
   const googleProvider = new GoogleAuthProvider();

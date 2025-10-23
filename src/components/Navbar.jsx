@@ -52,15 +52,21 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end hidden lg:flex ">
-        <ul className="menu menu-horizontal px-4">
-          <li><NavLink to='/'>Home</NavLink></li>
-          <li><NavLink to='/games'>Games</NavLink></li>
-          <li><NavLink to='/installation'>Installation</NavLink></li>
-          <li><NavLink to='/about'>About</NavLink></li>
+        <ul className="menu menu-horizontal px-4 gap-1">
+          {/* home */}
+          <li className='font-semibold text-xl'><NavLink to='/' className={({isActive}) => isActive ? 'text-[#632EE3] font-bold' : 'text-black hover:text-[#632EE3]'}> Home</NavLink></li>
+          {/* games */}
+          <li className='font-semibold text-xl'><NavLink to='/games' className={({isActive}) => isActive ? 'text-[#632EE3] font-bold' : 'text-black hover:text-[#632EE3]'}>Games</NavLink></li>
+          {/* installation */}
+          <li  className='font-semibold text-xl'><NavLink to='/installation' className={({isActive}) => isActive ? 'text-[#632EE3] font-bold' : 'text-black hover:text-[#632EE3]'}>Installation</NavLink></li>
+          {/* about */}
+          <li className='font-semibold text-xl'><NavLink to='/about' className={({isActive}) => isActive ? 'text-[#632EE3] font-bold' : 'text-black hover:text-[#632EE3]'}>About</NavLink></li>
           {!user && (
             <>
-              <li><NavLink to={"/login"}>LogIn</NavLink></li>
-              <li><NavLink to={"/signup"}>SignUp</NavLink></li>
+              <li className='font-semibold text-xl'><NavLink to={"/login"} className={({isActive}) => isActive ? 'text-[#632EE3] font-bold' : 'text-black hover:text-[#632EE3]'}>LogIn</NavLink></li>
+
+              
+              <li className='font-semibold text-xl'><NavLink to={"/register"} className={({isActive}) => isActive ? 'text-[#632EE3] font-bold' : 'text-black hover:text-[#632EE3]'}>SignUp</NavLink></li>
             </>
           )}
 
@@ -69,7 +75,7 @@ const Navbar = () => {
           user && (
             <div className='flex items-center gap-3'>
               <Link to={"/profile"}>
-                <img src={user.photoURL} alt="" className='h-10 w-10 rounded-full border-2 border-[#632EE3] cursor-pointer' title='{user.displayName}' />
+                <img src={user.photoURL} alt="" className='h-10 w-10 rounded-full border-2 border-[#632EE3] cursor-pointer' title={user.displayName} />
               </Link>
               <button onClick={handleLogout} className='btn btn-sm bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-sm font-semibold  text-white hover:bg-[#5225b8]'><MdLogout className='text-xl' />
                 LogOut</button>
