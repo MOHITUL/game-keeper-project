@@ -8,13 +8,14 @@ import Home from "../pages/Home";
 import PrivateRoute from "./PrivateRoute";
 import Register from "../pages/Register";
 import MyProfile from "../pages/MyProfile";
+import NotFound from "../pages/NotFound";
 
 const router = createBrowserRouter(
     [
         {
             path: "/",
             element: <MainLayout></MainLayout>,
-            errorElement: <ErrorPage />,
+            errorElement: <NotFound/>,
             children: [
                 {
                     index: true,
