@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../Provider/AuthProvider';
 import { useNavigate } from 'react-router';
 import { updateProfile } from 'firebase/auth';
+import { toast } from 'react-toastify';
 
 const Updateprofile = () => {
     useEffect(() => {
@@ -22,10 +23,11 @@ const Updateprofile = () => {
             photoURL: photoURL,
         })
         .then(() => {
-            alert("Updated Profile!");
+            toast.success("Updated Profile!");
             navigate("/profile")
         })
         .catch((error) => {
+            
             console.error("Error Updating Profile:", error);
         });
     };

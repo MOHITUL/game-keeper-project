@@ -3,6 +3,7 @@ import lgImg from "../assets/logo.png";
 import { AuthContext } from '../Provider/AuthProvider';
 import { Link, NavLink, useNavigate } from 'react-router';
 import { MdLogout } from 'react-icons/md';
+import { toast } from 'react-toastify';
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -10,8 +11,14 @@ const Navbar = () => {
 
   const handleLogout = () => {
     logOut()
-      .then(() => navigate("/"))
-      .catch((err) => console.error(err));
+      .then(() => {
+        toast.success("Logged Out Successfully");
+      })
+      navigate("/")
+      .catch((err) => {
+        console.error(err)
+        toast.error("Logout Failed! Try Again")
+      })
   }
 
   return (

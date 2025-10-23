@@ -1,15 +1,15 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, {  useEffect, useState } from "react";
 import { getAuth, signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import app from "../firebase/firebase.config";
 import { Link, useNavigate } from "react-router";
-import { AuthContext } from "../Provider/AuthProvider";
 import { FcGoogle } from "react-icons/fc";
+import { toast } from "react-toastify";
 
 const Login = () => {
   useEffect(() => {
     document.title = "LogIn | GAMEKEEPER";
   }, []);
-  const { user } = useContext(AuthContext);
+  
   const [error, setError] = useState("");
   const auth = getAuth(app);
   const googleProvider = new GoogleAuthProvider();
@@ -22,17 +22,26 @@ const Login = () => {
     const password = form.password.value;
 
     signInWithEmailAndPassword(auth, email, password)
-      .then(result => {
-        console.log(result.user);
-        navigate("/");
+      .then(() => {
+        toast.success("Login Successful");
+        navigate("/")
       })
-      .catch(err => setError(err.message));
+      .catch((err) => {
+        toast.error("Invalid Email or Password");
+        setError(err.message);
+      })
   };
 
   const handleGoogleLogin = () => {
     signInWithPopup(auth, googleProvider)
-      .then(result => navigate("/"))
-      .catch(err => setError(err.message));
+      .then(() => {
+        toast.success("Logged in with Google");
+        navigate("/")
+      })
+      .catch((err) => {
+        toast.error("Google Login Failed");
+        setError(err.message);
+      })
   };
 
   return (
