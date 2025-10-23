@@ -3,40 +3,52 @@ import Games from "../pages/Games";
 import MainLayout from "../layouts/MainLayout";
 import LogIn from "../pages/LogIn";
 import Installation from "../pages/Installation";
-import SignUp from "../pages/SignUp";
 import ErrorPage from "../pages/ErrorPage";
 import Home from "../pages/Home";
+import PrivateRoute from "./PrivateRoute";
+import Register from "../pages/Register";
+import MyProfile from "../pages/MyProfile";
 
 const router = createBrowserRouter(
     [
         {
-            path:"/",
+            path: "/",
             element: <MainLayout></MainLayout>,
-            errorElement:<ErrorPage/>,
-            children:[
+            errorElement: <ErrorPage />,
+            children: [
                 {
-                    index:true,
-                    element:<Home></Home>
+                    index: true,
+                    element: <Home></Home>
                 },
                 {
-                    path:"/games",
+                    path: "/games",
                     element: <Games></Games>,
                 },
                 {
-                    path:"/installation",
-                    element:<Installation></Installation>,
+                    path: "/installation",
+                    element: (
+                        <PrivateRoute>
+                            <Installation></Installation>
+                        </PrivateRoute>
+                    ),
                 },
                 {
-                    path:"/login",
-                    element:<LogIn></LogIn>,
+                    path: "/login",
+                    element: <LogIn></LogIn>,
                 },
                 {
-                    path:"/signup",
-                    element:<SignUp></SignUp>,
+                    path: "/register",
+                    element: <Register></Register> ,
+                },
+                {
+                    path: "/profile",
+                    element: <PrivateRoute>
+                        <MyProfile/>
+                    </PrivateRoute> ,
                 },
             ]
         },
-        
+
     ]
 );
 
