@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { getAuth, signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import app from "../firebase/firebase.config";
 import { Link, useNavigate } from "react-router";
@@ -6,6 +6,9 @@ import { AuthContext } from "../Provider/AuthProvider";
 import { FcGoogle } from "react-icons/fc";
 
 const Login = () => {
+  useEffect(() => {
+    document.title = "LogIn | GAMEKEEPER";
+  }, []);
   const { user } = useContext(AuthContext);
   const [error, setError] = useState("");
   const auth = getAuth(app);
@@ -49,8 +52,8 @@ const Login = () => {
       </p>
 
       <button onClick={handleGoogleLogin} className="btn w-full mt-3 border border-[#632EE3] bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
-        <FcGoogle className="text-2xl"/>
-           Continue with Google
+        <FcGoogle className="text-2xl" />
+        Continue with Google
       </button>
     </div>
   );

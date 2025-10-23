@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { getAuth, createUserWithEmailAndPassword, updateProfile, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import app from "../firebase/firebase.config";
 import { Link, useNavigate } from "react-router";
 import { FcGoogle } from "react-icons/fc";
 
 const Register = () => {
+  useEffect (() => {
+          document.title = "Register | GAMEKEEPER";
+      },[]);
   const auth = getAuth(app);
   const googleProvider = new GoogleAuthProvider();
   const [error, setError] = useState("");

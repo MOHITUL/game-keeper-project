@@ -1,7 +1,10 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { AuthContext } from '../Provider/AuthProvider';
 
 const MyProfile = () => {
+    useEffect (() => {
+            document.title = "MyProfile | GAMEKEEPER";
+        },[]);
     const {user} = useContext(AuthContext);
 
     if (!user){

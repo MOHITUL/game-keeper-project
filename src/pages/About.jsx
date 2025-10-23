@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 
-const About = () => {
+
     const About = () => {
         useEffect(() => {
             document.title = "About | GAMEKEEPER";
-        }, [])
-    }
+        }, []);
+    
     return (
         <div className="max-w-2xl mx-auto mt-16 text-center">
             <h2 className="text-3xl font-bold bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent mb-4">About GAMEKEEPER</h2>
