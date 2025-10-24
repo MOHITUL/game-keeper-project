@@ -51,24 +51,24 @@ const Register = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-12 p-8 shadow rounded-xl">
-      <h2 className="text-2xl font-bold mb-4 text-center bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">Register</h2>
+    <div className="max-w-md mx-auto mt-12 p-8 shadow-lg rounded-xl">
+      <h2 className="text-2xl font-semibold mb-4 text-center  text-[#2AFADF]">Register</h2>
 
       <form onSubmit={handleRegister}>
         <input name="name" type="text" placeholder="Name" className="input input-bordered w-full mb-3" required />
         <input name="photo" type="text" placeholder="Photo URL" className="input input-bordered w-full mb-3" />
         <input name="email" type="email" placeholder="Email" className="input input-bordered w-full mb-3" required />
         <input name="password" type="password" placeholder="Password" className="input input-bordered w-full mb-3" required />
-        <button className="btn w-full bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white">Register</button>
+        <button className="btn w-full bg-linear-to-r from-[#7928ca] to-[#2afadf] border-none">Register</button>
       </form>
 
       {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
 
       <p className="text-center mt-3">
-        Already have an account? <Link to="/login" className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold  text-xl">Login</Link>
+        Already have an account? <Link to="/login" className=" font-semibold  text-xl hover:text-[#2afadf]">Login</Link>
       </p>
 
-      <button onClick={handleGoogleLogin} className="btn w-full mt-3 border border-[#632EE3] bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold text-sm">
+      <button onClick={handleGoogleLogin} className="btn w-full mt-3  bg-linear-to-r from-[#2afadf] to-[#7928ca] border-none font-semibold text-sm">
         <FcGoogle className="text-2xl" />
         Continue with Google
       </button>

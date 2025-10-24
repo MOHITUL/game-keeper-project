@@ -6,7 +6,7 @@ import codImg4 from "../assets/Free Fire1.jpg"
 
 const Carousel = () => {
     return (
-        <div className='mt-3'>
+        <div>
             <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img
@@ -48,7 +48,7 @@ const Carousel = () => {
 
             {/* Trending Apps */}
             <div className='text-center mt-15'>
-                <h1 className='font-semibold text-5xl'>Trending Games</h1>
+                <h1 className='font-semibold text-5xl italic'>Trending Games</h1>
                 <p className='text-xl mt-5 opacity-50'>Explore All Trending Games on Market </p>
             </div>
         </div>

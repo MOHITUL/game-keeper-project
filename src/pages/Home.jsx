@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Carousel from '../components/Carousel';
 import PopularGames from '../components/PopularGames';
+import Newsletter from './Newsletter';
 
 const Home = () => {
     useEffect (() => {
@@ -10,6 +11,7 @@ const Home = () => {
         <div>
             <Carousel></Carousel>
             <PopularGames></PopularGames>
+            <Newsletter/>
         </div>
     );
 };

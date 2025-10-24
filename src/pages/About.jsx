@@ -8,7 +8,7 @@ import React, { useEffect } from 'react';
     
     return (
         <div className="max-w-2xl mx-auto mt-16 text-center">
-            <h2 className="text-3xl font-semibold  mb-4">About GAMEKEEPER</h2>
+            <h2 className="text-3xl font-semibold  mb-14 underline italic">About GAMEKEEPER</h2>
             <p className="text-gray-900 mb-6 leading-relaxed"> 
                 GAMEKEEPER is a game-based web platform where you can explore different fun challenges, learn installations, and interact with exciting game setups. This project is built with React, Tailwind CSS, Firebase for a smooth and dynamic experience.
             </p>

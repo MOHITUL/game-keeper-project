@@ -45,22 +45,22 @@ const Login = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-12 p-8 shadow rounded-xl">
-      <h2 className="text-2xl font-semibold mb-4 text-center bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">Login</h2>
+    <div className="max-w-md mx-auto mt-12 p-8 shadow-lg rounded-xl">
+      <h2 className="text-2xl font-semibold mb-4 text-center ">Login</h2>
 
       <form onSubmit={handleLogin}>
         <input name="email" type="email" placeholder="Email" className="input input-bordered w-full mb-3" required />
         <input name="password" type="password" placeholder="Password" className="input input-bordered w-full mb-3" required />
-        <button className="btn w-full bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white text-sm font-semibold">Login</button>
+        <button className="btn w-full bg-linear-to-r from-[#7928CA] to-[#2AFADF] text-lg font-semibold border-none">Login</button>
       </form>
 
       {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
 
       <p className="text-center mt-3">
-        New here? <Link to="/signup" className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">Register</Link>
+        New here? <Link to="/register" className="text-xl hover:text-[#2AFADF]">Register</Link>
       </p>
 
-      <button onClick={handleGoogleLogin} className="btn w-full mt-3 border border-[#632EE3] bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+      <button onClick={handleGoogleLogin} className="btn w-full mt-3 bg-linear-to-r from-[#2AFADF] to-[#7928CA] border-none">
         <FcGoogle className="text-2xl" />
         Continue with Google
       </button>
