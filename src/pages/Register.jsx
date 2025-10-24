@@ -3,11 +3,12 @@ import { getAuth, createUserWithEmailAndPassword, updateProfile, GoogleAuthProvi
 import app from "../firebase/firebase.config";
 import { Link, useNavigate } from "react-router";
 import { FcGoogle } from "react-icons/fc";
+import { toast } from "react-toastify";
 
 const Register = () => {
-  useEffect (() => {
-          document.title = "SignUp | GAMEKEEPER";
-      },[]);
+  useEffect(() => {
+    document.title = "SignUp | GAMEKEEPER";
+  }, []);
   const auth = getAuth(app);
   const googleProvider = new GoogleAuthProvider();
   const [error, setError] = useState("");
@@ -31,15 +32,21 @@ const Register = () => {
 
     createUserWithEmailAndPassword(auth, email, password)
       .then(result => {
-        updateProfile(result.user, { displayName: name, photoURL: photo });
+        updateProfile(result.user, { displayName: name, photoURL: photo })
+        toast.success("Account created successfully!")
         navigate("/");
       })
-      .catch(err => setError(err.message));
+      .catch((err) => toast.error(err.message));
+  
   };
 
   const handleGoogleLogin = () => {
     signInWithPopup(auth, googleProvider)
-      .then(() => navigate("/"))
+      .then(() => {
+        toast.success("Logged in with Google!");
+        navigate("/")
+      }
+      )
       .catch(err => setError(err.message));
   };
 

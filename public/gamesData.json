@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Player Unknowns Battle Ground: PUBG",
-        "coverPhoto": "https://example.com/images/pubg.png",
+        "coverPhoto": "https://i.ibb.co.com/Y6ZnTsN/Player-Unknowns-Battle-Ground.webp",
         "category": "FPS",
         "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
         "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps. Players drop onto an island with nothing and must scavenge for weapons, armor, and supplies while avoiding a shrinking safe zone. The game offers various modes, including classic battle royale, arcade modes, and team deathmatch. With regular updates, new maps, weapons, and events keep the gameplay fresh and engaging. The intuitive controls and realistic graphics make it a popular choice for mobile gamers worldwide.",
@@ -12,7 +12,7 @@
     {
         "id": "2",
         "title": "Call of Duty: Mobile",
-        "coverPhoto": "https://example.com/images/codm.png",
+        "coverPhoto": "https://i.ibb.co.com/r2FpbR9w/Call-of-Duty.jpg",
         "category": "FPS",
         "downloadLink": "https://www.callofduty.com/mobile",
         "description": "Call of Duty: Mobile brings the iconic FPS franchise to mobile devices with stunning graphics and smooth gameplay. It features classic multiplayer maps, modes like Team Deathmatch and Domination, and a thrilling Battle Royale experience. Players can customize their loadouts, unlock legendary characters, and participate in ranked matches. Frequent seasonal updates introduce new content, ensuring a continuous stream of action. The game excels in its tight controls and diverse weapon arsenal, providing an authentic Call of Duty experience on the go.",
@@ -22,7 +22,7 @@
     {
         "id": "3",
         "title": "Genshin Impact",
-        "coverPhoto": "https://example.com/images/genshin.png",
+        "coverPhoto": "https://i.ibb.co.com/whVCxhjx/Genshin-Impact.jpg",
         "category": "Action RPG",
         "downloadLink": "https://genshin.hoyoverse.com/en/",
         "description": "Genshin Impact is an open-world action RPG set in the vibrant world of Teyvat. Players embark on an epic journey as the Traveler, searching for their lost sibling. The game features a vast, explorable world, a compelling story, and a unique elemental combat system. With a diverse cast of characters, each with distinct abilities, players can form teams and unleash powerful elemental reactions. Regular updates introduce new regions, characters, quests, and events, making the world of Teyvat ever-expanding and full of surprises. Its breathtaking visuals and immersive soundtrack contribute to an unforgettable adventure.",
@@ -32,7 +32,7 @@
     {
         "id": "4",
         "title": "Mobile Legends: Bang Bang",
-        "coverPhoto": "https://example.com/images/mlbb.png",
+        "coverPhoto": "https://i.ibb.co.com/20JDMcVr/Mobile-Legends.jpg",
         "category": "MOBA",
         "downloadLink": "https://m.mobilelegends.com/",
         "description": "Mobile Legends: Bang Bang is a 5v5 MOBA designed for mobile devices. Players choose from a wide array of heroes, each with unique skills, and battle it out in real-time matches. The objective is to destroy the enemy's base while defending your own. Strategic team play, proper hero selection, and skillful execution are key to victory. The game boasts fast-paced matches, intuitive controls, and a thriving esports scene. Constant updates introduce new heroes, skins, and balance changes, keeping the meta fresh and competitive.",
@@ -42,7 +42,7 @@
     {
         "id": "5",
         "title": "Clash of Clans",
-        "coverPhoto": "https://example.com/images/coc.png",
+        "coverPhoto": "https://i.ibb.co.com/tw2QgXkg/Clash-of-Clans.jpg",
         "category": "Strategy",
         "downloadLink": "https://supercell.com/en/games/clashofclans/",
         "description": "Clash of Clans is a popular strategy game where players build their village, train troops, and battle against millions of other players worldwide. Players can join or create clans, participate in clan wars, and strategize with teammates. The game involves resource management, base building, and offensive/defensive tactics. With a variety of units, spells, and defensive structures, there are endless ways to play and conquer. Regular updates bring new content, challenges, and improvements to the game, maintaining its long-term appeal.",
