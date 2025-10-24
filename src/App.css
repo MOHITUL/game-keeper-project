@@ -1,5 +1,5 @@
 @layer base{
     body{
-        @apply bg-gradient-to-br from-[#ff0080] via-[#7928CA] to-[#2AFADF]
+        @apply bg-gradient-to-br from-[#ff0080] via-[#7928CA] to-[#2AFADF] min-h-screen
     }
 }
