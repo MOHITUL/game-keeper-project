@@ -24,9 +24,6 @@ const PopularGames = () => {
         return <p className='text-center mt-10 text-gray-600'>Loading games...</p>
     }
 
-
-
-
     return (
         <div>
             <div className='p-10 max-w-7xl mx-auto '>
@@ -38,13 +35,13 @@ const PopularGames = () => {
                         <Link
                             to={`/games/${game.id}`}
                             key={game.id}
-                            className=' rounded-lg shadow-md hover:scale-105 transition ease-in-out bg-white'
+                            className=' rounded-lg shadow-md hover:scale-105 transition ease-in-out'
                         >
                             <img src={game.coverPhoto}
                                 alt={game.title}
                                 className='w-full h-120 object-cover rounded-t-lg' />
 
-                            <div className='p-8 bg-[#632EE3]'>
+                            <div className='p-8 '>
                                 <h3 className='text-xl font-semibold'>{game.title}</h3>
                                 <p className='text-lg text-gray-900 mt-1'>{game.category}</p>
 
@@ -60,7 +57,7 @@ const PopularGames = () => {
          <div className='flex justify-center'>
             <Link
         to="/games"
-        className="inline-block bg-linear-to-r from-[#632EE3] to-[#9F62F2] font-semibold px-6 py-2 rounded hover:bg-blue-700 transition"
+        className=" bg-linear-to-r from-[#7928CA] to-[#2AFADF] font-semibold px-6 py-2 rounded hover:text-xl "
       >
         See All Games
       </Link>

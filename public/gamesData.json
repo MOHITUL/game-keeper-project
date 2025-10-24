@@ -52,7 +52,7 @@
     {
         "id": "6",
         "title": "Among Us",
-        "coverPhoto": "https://example.com/images/amongus.png",
+        "coverPhoto": "https://i.ibb.co.com/WrMQvFm/Among-Us.jpg",
         "category": "Party, Social Deduction",
         "downloadLink": "https://www.innersloth.com/games/among-us/",
         "description": "Among Us is a highly popular online multiplayer social deduction game. Players are crewmates on a spaceship, trying to complete tasks, but one or more players are impostors whose goal is to sabotage and kill the crewmates without being caught. The game involves communication, deception, and deduction as players try to figure out who the impostors are through emergency meetings and voting. Its simple yet engaging gameplay has made it a global phenomenon, fostering strategic thinking and hilarious interactions among players. New maps and cosmetic items are frequently added.",
@@ -62,7 +62,7 @@
     {
         "id": "7",
         "title": "Fortnite Mobile",
-        "coverPhoto": "https://example.com/images/fortnite.png",
+        "coverPhoto": "https://i.ibb.co.com/67BjKtL7/Fortnite-Mobile.jpg",
         "category": "Battle Royale, Building",
         "downloadLink": "https://www.epicgames.com/fortnite/en-US/mobile",
         "description": "Fortnite Mobile brings the globally popular battle royale experience to handheld devices. Players drop onto a massive island, scavenge for weapons, and battle it out to be the last one standing. Unique to Fortnite is its building mechanic, allowing players to construct ramps, walls, and shelters for both offense and defense. The game features vibrant, cartoonish graphics, a wide array of cosmetic items, and frequent updates with new seasons, events, and gameplay changes. It offers a fast-paced, strategic, and highly competitive experience for mobile gamers.",
@@ -72,7 +72,7 @@
     {
         "id": "8",
         "title": "Roblox",
-        "coverPhoto": "https://example.com/images/roblox.png",
+        "coverPhoto": "https://i.ibb.co.com/HL88S7ds/Roblox.jpg",
         "category": "Sandbox, Creation",
         "downloadLink": "https://www.roblox.com/",
         "description": "Roblox is a global platform where millions of users can create and play a vast array of user-generated games and experiences. From adventure and role-playing to simulations and combat, the possibilities are endless. It's not just a game; it's a creative platform where players can design their own virtual worlds and share them with others. The graphical style is blocky and distinctive, allowing for a wide range of creative expression. Roblox encourages imagination, social interaction, and continuous innovation, with new experiences added daily.",
@@ -82,7 +82,7 @@
     {
         "id": "9",
         "title": "Minecraft Pocket Edition",
-        "coverPhoto": "https://example.com/images/minecraft.png",
+        "coverPhoto": "https://i.ibb.co.com/F4kMpHD2/Minecraft-Pocket-Edition.jpg",
         "category": "Sandbox, Survival",
         "downloadLink": "https://www.minecraft.net/en-us/pockt-edition",
         "description": "Minecraft Pocket Edition offers the beloved block-building and adventure game experience on mobile. Players can explore infinite worlds, mine resources, craft tools and items, and build anything they can imagine. The game features survival mode, where players must gather resources and fight hostile mobs, and creative mode, where they have unlimited resources to build freely. Multiplayer options allow players to join friends' worlds. With continuous updates adding new blocks, creatures, and features, Minecraft PE remains a timeless classic for creative minds.",
@@ -92,7 +92,7 @@
     {
         "id": "10",
         "title": "Subway Surfers",
-        "coverPhoto": "https://example.com/images/subwaysurfers.png",
+        "coverPhoto": "https://i.ibb.co.com/JjQN55dq/Subway-Surfers.jpg",
         "category": "Endless Runner",
         "downloadLink": "https://sybogames.com/games/subway-surfers/",
         "description": "Subway Surfers is a popular endless runner game where players take on the role of Jake, Tricky, or Fresh, who are running from an angry inspector and his dog through subway tracks. Players must dodge oncoming trains, jump over obstacles, and collect coins and power-ups. The game features vibrant graphics, intuitive swipe controls, and a sense of constant momentum. Regular updates introduce new cities to explore, characters to unlock, and themed events, providing fresh content and challenges for players. It’s an addictive game perfect for quick, fun sessions.",
@@ -102,7 +102,7 @@
     {
         "id": "11",
         "title": "Candy Crush Saga",
-        "coverPhoto": "https://example.com/images/candycrush.png",
+        "coverPhoto": "https://i.ibb.co.com/60JpNrZf/Candy-Crush-Saga.jpg",
         "category": "Puzzle",
         "downloadLink": "https://king.com/game/candycrush",
         "description": "Candy Crush Saga is a hugely popular match-3 puzzle game. Players swap colored candies to match three or more in a row or column, clearing them from the board. The game features hundreds of levels, each with unique objectives and challenges, from achieving high scores to clearing jelly or bringing ingredients down. Special candies and power-ups add strategic depth. Its charming graphics, satisfying sound effects, and addictive gameplay make it a go-to for casual gamers. New levels and episodes are added regularly, ensuring a never-ending supply of sugary fun.",
@@ -112,7 +112,7 @@
     {
         "id": "12",
         "title": "Free Fire",
-        "coverPhoto": "https://example.com/images/freefire.png",
+        "coverPhoto": "https://i.ibb.co.com/kgL6ZjCx/Free-Fire.jpg",
         "category": "Battle Royale",
         "downloadLink": "https://ff.garena.com/",
         "description": "Free Fire is a fast-paced battle royale game designed for mobile devices. It features 50 players parachuting onto a remote island, scavenging for weapons and equipment, and fighting to be the last one standing. Matches are quick, typically lasting around 10 minutes, making it ideal for on-the-go gaming. The game offers various characters with unique abilities, diverse weapons, and customizable skins. Regular updates introduce new game modes, events, and cosmetic items, keeping the community engaged and the gameplay exciting. Its optimized performance makes it accessible to a wider range of devices.",
@@ -122,7 +122,7 @@
     {
         "id": "13",
         "title": "Arena of Valor",
-        "coverPhoto": "https://example.com/images/aov.png",
+        "coverPhoto": "https://i.ibb.co.com/zT0nPjW8/Arena-of-Valor.jpg",
         "category": "MOBA",
         "downloadLink": "https://www.arenaofvalor.com/",
         "description": "Arena of Valor is a competitive 5v5 MOBA that delivers intense real-time battles. Players choose from a vast roster of heroes, each with distinct roles and abilities, and team up to push lanes, secure objectives, and destroy the enemy's core. The game offers various modes, including Grand Battle, Abyssal Clash, and Hook Wars, alongside a ranked ladder for competitive play. Its high-fidelity graphics, strategic depth, and responsive controls provide a premium MOBA experience on mobile. Regular hero releases, balance changes, and esports events keep the meta dynamic.",
@@ -132,7 +132,7 @@
     {
         "id": "14",
         "title": "Asphalt 9: Legends",
-        "coverPhoto": "https://example.com/images/asphalt9.png",
+        "coverPhoto": "https://i.ibb.co.com/TqWTKRqj/Asphalt-9-Legends.webp",
         "category": "Racing",
         "downloadLink": "https://www.gameloft.com/game/asphalt-9/",
         "description": "Asphalt 9: Legends is a high-octane arcade racing game featuring stunning graphics and exhilarating gameplay. Players race a collection of real hypercars across spectacular locations, performing incredible stunts and drifts. The game introduces 'TouchDrive,' a streamlined control scheme that makes racing accessible while still offering manual control for seasoned players. It boasts a robust career mode, multiplayer races, and engaging special events. With frequent updates adding new cars, tracks, and challenges, Asphalt 9 provides a continuously thrilling racing experience.",
@@ -142,7 +142,7 @@
     {
         "id": "15",
         "title": "8 Ball Pool",
-        "coverPhoto": "https://example.com/images/8ballpool.png",
+        "coverPhoto": "https://i.ibb.co.com/QFQw54Pw/8-Ball-Pool.jpg",
         "category": "Sports, Pool",
         "downloadLink": "https://www.miniclip.com/games/8-ball-pool/",
         "description": "8 Ball Pool is the world's most popular online pool game. Players can challenge friends, participate in tournaments, or compete against millions of players worldwide in 1-on-1 matches. The game features realistic physics, intuitive controls, and various tables and cues to unlock and customize. As players win matches, they earn coins to enter higher-stakes tables and upgrade their equipment. Its straightforward yet competitive gameplay makes it highly addictive for casual and serious players alike. Regular updates introduce new features, challenges, and cosmetic items.",
@@ -152,7 +152,7 @@
     {
         "id": "16",
         "title": "Honkai Impact 3rd",
-        "coverPhoto": "https://example.com/images/honkai.png",
+        "coverPhoto": "https://i.ibb.co.com/XxTW860D/Honkai-Impact-3rd.jpg",
         "category": "Action RPG",
         "downloadLink": "https://honkaiimpact3.hoyoverse.com/en-us/",
         "description": "Honkai Impact 3rd is a visually stunning action RPG with a deep story and fast-paced combat. Players control a team of Valkyries, powerful female warriors, fighting against the Honkai, a mysterious force threatening humanity. The game features diverse characters, each with unique fighting styles and weapons, allowing for dynamic team compositions and strategic combat. It boasts impressive anime-style graphics, engaging cutscenes, and a compelling narrative. Regular updates introduce new Valkyries, story chapters, events, and game modes, keeping the experience fresh and exciting for its dedicated fanbase.",
@@ -162,7 +162,7 @@
     {
         "id": "17",
         "title": "RAID: Shadow Legends",
-        "coverPhoto": "https://example.com/images/raid.png",
+        "coverPhoto": "https://i.ibb.co.com/3y4NZJkL/RAID-Shadow-Legends.jpg",
         "category": "RPG, Gacha",
         "downloadLink": "https://plarium.com/en/games/raid-shadow-legends/",
         "description": "RAID: Shadow Legends is a fantasy-themed turn-based RPG with stunning graphics and deep strategic gameplay. Players collect hundreds of champions from 14 different factions, each with unique skills and gear. The game features a compelling story campaign, challenging boss battles, faction wars, and a robust PvP arena. Players can upgrade their champions, equip them with powerful artifacts, and form strategic teams to overcome various challenges. Frequent updates introduce new champions, events, and content, ensuring a continuous progression path and engaging gameplay for its large player base.",
@@ -172,7 +172,7 @@
     {
         "id": "18",
         "title": "Hearthstone",
-        "coverPhoto": "https://example.com/images/hearthstone.png",
+        "coverPhoto": "https://i.ibb.co.com/W4btvWXr/Hearthstone.jpg",
         "category": "Digital Card Game",
         "downloadLink": "https://playhearthstone.com/en-us/",
         "description": "Hearthstone is a popular free-to-play digital collectible card game set in the Warcraft universe. Players build decks of cards featuring iconic characters, spells, and minions, then battle opponents in strategic turn-based combat. The game is easy to learn but offers immense strategic depth, with countless deck archetypes and counter-plays. It features various modes, including casual play, ranked ladders, and a single-player adventure. Regular expansions introduce hundreds of new cards, mechanics, and game modes, keeping the meta fresh and competitive. Its charming art style and voice acting are a huge draw.",
@@ -182,7 +182,7 @@
     {
         "id": "19",
         "title": "League of Legends: Wild Rift",
-        "coverPhoto": "https://example.com/images/wildrift.png",
+        "coverPhoto": "https://i.ibb.co.com/XxCtWCgH/League-of-Legends-Wild-Rift.webp",
         "category": "MOBA",
         "downloadLink": "https://wildrift.leagueoflegends.com/en-us/",
         "description": "League of Legends: Wild Rift brings the iconic 5v5 MOBA experience of League of Legends to mobile and console platforms. Optimized for new platforms, it features fast-paced matches, intuitive dual-stick controls, and a diverse roster of champions. Players team up to destroy the enemy Nexus, utilizing strategic champion picks, item builds, and coordinated team fights. The game boasts high-quality graphics and smooth performance. Regular updates introduce new champions, balance adjustments, and cosmetic content, ensuring a fresh and competitive environment for players globally.",
@@ -192,8 +192,8 @@
     {
         "id": "20",
         "title": "Pokémon GO",
-        "coverPhoto": "https://example.com/images/pokemongo.png",
-        "category": "Augmented Reality, Adventure",
+        "coverPhoto": "https://i.ibb.co.com/DHmxnxSm/Pok-mon-GO.jpg",
+        "category": " Adventure",
         "downloadLink": "https://www.pokemongolive.com/",
         "description": "Pokémon GO is an augmented reality game that brings the world of Pokémon to life. Players explore the real world to catch Pokémon, battle in gyms, and participate in raids. The game uses GPS and AR technology to overlay Pokémon onto the real environment, encouraging physical activity and social interaction. Players can trade Pokémon with friends, complete research tasks, and participate in community days. Regular updates introduce new Pokémon, features, and events, ensuring there's always something new to discover and catch in the vast world of Pokémon.",
         "ratings": "4.1",
@@ -202,7 +202,7 @@
     {
         "id": "21",
         "title": "Dead by Daylight Mobile",
-        "coverPhoto": "https://example.com/images/dbdm.png",
+        "coverPhoto": "https://i.ibb.co.com/RTmqnfDB/Dead-by-Daylight-Mobile.jpg",
         "category": "Survival Horror",
         "downloadLink": "https://www.deadbydaylight.com/mobile",
         "description": "Dead by Daylight Mobile delivers the asymmetrical multiplayer survival horror experience to handheld devices. One player takes on the role of a ruthless Killer, while four other players are Survivors trying to escape by repairing five generators to power the exit gates. Survivors must work together, utilizing stealth and cunning, while the Killer hunts them down using unique powers. The game features a roster of iconic original and licensed Killers and Survivors, offering diverse gameplay mechanics and strategies. Its intense atmosphere and thrilling cat-and-mouse gameplay make it a standout horror title.",
@@ -212,7 +212,7 @@
     {
         "id": "22",
         "title": "Marvel Future Fight",
-        "coverPhoto": "https://example.com/images/marvelfuturefight.png",
+        "coverPhoto": "https://i.ibb.co.com/XfyJzdQ8/Marvel-Future-Fight.jpg",
         "category": "Action RPG",
         "downloadLink": "https://www.marvelfuturefight.com/",
         "description": "Marvel Future Fight is an action RPG where players assemble a team of Super Heroes and Super Villains from the Marvel Universe to protect the universe from threats. The game features a vast roster of characters, each with unique skills, uniforms, and upgrade paths. Players engage in real-time combat, completing story missions, daily challenges, and PvP battles. With its stunning graphics and dynamic combat system, it offers an authentic Marvel experience. Frequent updates introduce new characters, uniforms, game modes, and story content, keeping fans engaged with their favorite heroes.",
@@ -222,7 +222,7 @@
     {
         "id": "23",
         "title": "State of Survival",
-        "coverPhoto": "https://example.com/images/stateofsurvival.png",
+        "coverPhoto": "https://i.ibb.co.com/8VD0zyV/State-of-Survival.jpg",
         "category": "Strategy, Survival",
         "downloadLink": "https://stateofsurvival.com/",
         "description": "State of Survival is a post-apocalyptic strategy game where players must build and expand their settlement, recruit survivors, and fight against hordes of infected. Set in a zombie-infested world, players need to manage resources, train troops, and form alliances with other players to survive. The game combines base building, resource management, and strategic combat elements. It features a compelling storyline, diverse heroes with unique skills, and real-time multiplayer warfare. Regular events and updates keep the world dynamic and offer new challenges for players to overcome.",
@@ -232,7 +232,7 @@
     {
         "id": "24",
         "title": "Garena Free Fire MAX",
-        "coverPhoto": "https://example.com/images/freefiremax.png",
+        "coverPhoto": "https://i.ibb.co.com/N26YjmPc/Garena-Free-Fire-MAX.webp",
         "category": "Battle Royale",
         "downloadLink": "https://ff.garena.com/max/en/",
         "description": "Garena Free Fire MAX is an enhanced version of the popular Free Fire battle royale, offering a premium gameplay experience with ultra HD resolutions and immersive effects. It features the same fast-paced 50-player battle royale matches but with significantly improved graphics, animations, and sound. Players can enjoy enhanced visual effects for weapons, vehicles, and character movements, making the action even more intense. The game is fully interoperable with the standard Free Fire, allowing players from both versions to play together. Regular updates bring new maps, characters, and events, optimizing the high-fidelity experience.",
@@ -242,7 +242,7 @@
     {
         "id": "25",
         "title": "FarmVille 3 – Animals",
-        "coverPhoto": "https://example.com/images/farmville3.png",
+        "coverPhoto": "https://i.ibb.co.com/PZD5zwxw/Farm-Ville-3-Animals.jpg",
         "category": "Simulation, Farming",
         "downloadLink": "https://zynga.com/games/farmville-3-animals/",
         "description": "FarmVille 3 – Animals is a charming farming simulation game where players build and manage their dream farm, raise adorable animals, and harvest crops. The game focuses on animal husbandry, introducing a wide variety of breeds with unique traits and products. Players can breed animals, collect rare species, and unlock new areas of their farm. It features colorful graphics, engaging quests, and social interactions with friends. Regular updates introduce new animals, decorations, and seasonal events, ensuring a continuous flow of content and maintaining the relaxing and rewarding farming experience.",

@@ -48,8 +48,8 @@ const Carousel = () => {
 
             {/* Trending Apps */}
             <div className='text-center mt-15'>
-                <h1 className='font-semibold text-5xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Trending Games</h1>
-                <p className='text-xl mt-5 opacity-40'>Explore All Trending Games on Market </p>
+                <h1 className='font-semibold text-5xl'>Trending Games</h1>
+                <p className='text-xl mt-5 opacity-50'>Explore All Trending Games on Market </p>
             </div>
         </div>
     );
