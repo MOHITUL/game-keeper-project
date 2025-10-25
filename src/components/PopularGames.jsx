@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FaRegStar } from 'react-icons/fa';
 import { Link } from 'react-router';
+import { BarLoader } from 'react-spinners';
 
 const PopularGames = () => {
     const [games, setGames] = useState([]);
@@ -21,8 +22,11 @@ const PopularGames = () => {
     }, []);
 
     if (loading) {
-        return <p className='text-center mt-10 text-gray-600'>Loading games...</p>
-    }
+            return <div className='flex flex-col justify-center items-center h-screen gap-5'>
+                <BarLoader color='#7928CA' size={100} />
+                <p className='text-lg text-gray-600'>Loading all games...</p>
+            </div>
+        }
 
     return (
         <div>
