@@ -7,7 +7,7 @@ import codImg4 from "../assets/Free Fire1.jpg"
 const Carousel = () => {
     return (
         <div>
-            <div className="carousel w-full">
+            <div className="carousel w-full mt-18">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img
                         src={codImg}

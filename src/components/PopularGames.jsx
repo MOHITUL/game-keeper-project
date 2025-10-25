@@ -33,7 +33,7 @@ const PopularGames = () => {
                 {
                     games.map((game) => (
                         <Link
-                            to={`/games/${game.id}`}
+                            to={`/gamedetails/${game.id}`}
                             key={game.id}
                             className=' rounded-lg shadow-md hover:scale-105 transition ease-in-out'
                         >
